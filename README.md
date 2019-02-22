@@ -13,10 +13,10 @@
 `iperf3 -c <IP address of the server> -u -b 10M  -R `  
 - Run TCP test for 120 seconds:  
 `iperf3 -c <IP address of the server>  -t 120`
-- Run TCP test using custom port of 10443:
-Server: `iperf3 -s -p 10443`
-Client: `iperf3 -c <IP address of the server>  -p 10443`
-- Run TCP test with 5 simultaneous sessions:
+- Run TCP test using custom port of 10443:  
+Server: `iperf3 -s -p 10443`  
+Client: `iperf3 -c <IP address of the server>  -p 10443`  
+- Run TCP test with 5 simultaneous sessions:  
 `iperf3 -c <IP address of the server>  -P 5`
 
 
